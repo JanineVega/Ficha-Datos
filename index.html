@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Información</title>
+  <style type="text/css">
+  body
+  {
+    background-color: #AAAAFF;
+    color: white;
+    font-family: Helvetica;
+  }
+  strong
+  {
+    background-color: #FFAAAA;
+  }
+  </style>
+</head>
+<body>
+  <h1>Ficha de Información</h1>
+   <section>
+     <form action="">
+       <div align="left">
+         <label for="inombre">Ingresa tu nombre:</label>
+         <input id="nombre" type="text" pattern="[A-Za-z]{3,100}" autofocus="autofocus" title="Solo letras en minuscula y mayuscula"required>
+       </div><br>
+
+       <div align="left">
+         <label for="iapellido">Ingresa tu apellido: </label>
+         <input id="apellido" type="text"  pattern="[A-Za-z]{3,100}"  required>
+       </div><br>
+
+       <div align="left">
+         <label for="idni">Ingresa tu DNI: </label>
+         <input id="dni" type="text" pattern="^[0-9]\d{7}$" required>
+       </div><br>
+
+       <div align="left">
+         <label for="idireccion">Ingresa tu dirección: </label>
+         <input id="direccion" type="text" required>
+       </div><br>
+
+     </form>
+     <div>
+        <button id="enviar" onclick="capturar()">Enviar Datos</button>
+     </div>
+       <div id="records"></div>
+   </section>
+
+    <script src="assets/js/javascript.js">
+    </script>
+</body>
+</html

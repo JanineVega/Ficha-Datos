@@ -1,5 +1,6 @@
 
 function capturar(){
+
   var nombre    = document.getElementById('nombre').value;
   var apellido  = document.getElementById('apellido').value;
   var dni       = document.getElementById('dni').value;

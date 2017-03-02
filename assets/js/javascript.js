@@ -17,6 +17,6 @@ if(nombre !="" && apellido !="" && dni !="" && direccion !="" ){
 
 formulario.reset();
 }
-
+console.log("Hola Mundo");
 
 }

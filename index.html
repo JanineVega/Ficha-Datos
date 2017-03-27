@@ -23,16 +23,16 @@
    <section>
      <form name="formulario" onsubmit="return false">
        <div align="left">
-         <label for="inombre">Ingresa tu nombre:</label>
-         <input value="Default" id="nombre" type="text" pattern="[A-Za-z]{3,100}" autofocus="autofocus" title="Solo letras en minuscula y mayuscula"required>
+         <label for="inombrehol" > Ingresa tu nombre:</label>
+         <input placeholder="José" value="" id="nombre" type="text" pattern="[A-Za-z]{3,100}" autofocus="autofocus" title="Solo letras en minuscula y mayuscula"required>
          <br><br>
 
-         <label for="iapellido">Ingresa tu apellido: </label>
-         <input id="apellido" type="text"  pattern="[A-Za-z]{3,100}"  required>
+         <label for="iapellido" >Ingresa tu apellido: </label>
+         <input  placeholder="Perez" id="apellido" type="text"  pattern="[A-Za-z]{3,100}"  required>
          <br><br>
 
          <label for="idni">Ingresa tu DNI: </label>
-         <input id="dni" type="text" pattern="^[0-9]\d{7}$" required>
+         <input id="dni" type="text" pattern="^[0-9]\d{7}$" placeholder="" required>
          <br><br>
 
          <label for="idireccion">Ingresa tu dirección: </label>
@@ -40,10 +40,10 @@
          <br><br>
        </div>
        <button  id="enviar">Enviar Datos</button><br>
-       <div id="printAll"></div>
      </form>
      </section>
 
+     <div id="printAll"></div>
     <script src="assets/js/javascript.js"> </script>
 </body>
 </html
